@@ -29,7 +29,7 @@ function permAlone(str) {
             for(const p of permute(rest)) {
                 result.push(head + p);
             }
-         
+          
         }
 
         return result;
